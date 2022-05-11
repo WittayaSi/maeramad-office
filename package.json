@@ -1,0 +1,73 @@
+{
+  "name": "inventory",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "@react-pdf/renderer": "^1.6.9",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-switch-button-react": "^1.1.0",
+    "classnames": "^2.2.6",
+    "formik": "^2.1.4",
+    "http-proxy-middleware": "^2.0.6",
+    "is-promise": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.10.2",
+    "react-bootstrap": "1.0.0-beta.14",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-typeahead": "^3.4.7",
+    "react-combine-reducers": "^1.1.1",
+    "react-data-table-component": "^6.9.1",
+    "react-dom": "^16.13.1",
+    "react-flash-message": "^1.0.4",
+    "react-hook-form": "^5.7.2",
+    "react-image-file-resizer": "^0.3.8",
+    "react-images-upload": "^1.2.8",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^7.1.0-rc.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^2.4.4",
+    "react-stepper-horizontal": "1.0.11",
+    "react-toast-notifications": "^2.4.3",
+    "redux": "^4.0.0-rc.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.1",
+    "sweetalert2": "^8.19.0",
+    "sweetalert2-react-content": "^1.1.0",
+    "thai-baht-text": "^1.0.8",
+    "uuid": "^3.4.0",
+    "yup": "^0.29.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

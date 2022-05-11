@@ -1,0 +1,342 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;700&display=swap'); */
+/* @import url(assets/fonts/thsarabunnew.css); */
+@import url(assets/fonts/kanit/kanit.css);
+
+html {
+  font-size: 0.90rem;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.customContainer {
+  margin: -1.3rem auto 1rem ;
+  max-width: 1920px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+    /* marginTop: '-1.3rem', marginBottom: '3rem', paddingLeft: '1rem', paddingRight: '1rem' */
+}
+
+.loading-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.image-times-icon {
+  position: absolute;
+  border-radius: 50%;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .content {
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+} */
+
+table.scrollAbleTable tbody {
+  /* display: block; */
+  max-height: 38vh;
+  /* min-height: 38vh; */
+  overflow: auto; 
+}
+
+table.scrollAbleTable thead, table.scrollAbleTable tbody tr {
+  display: table;
+  width: 100%;
+}
+
+.table td {
+  padding-top: 0.59rem;
+  word-wrap: none;
+}
+
+hr.bold-border {
+  border-top: 5px solid;
+  color: grey
+}
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-clear-button { 
+  display: block; 
+}
+
+input[type="datetime-local"]::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.loading-center {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.rw-widget-picker {
+  min-height: 34px;
+}
+
+
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #dadadae0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: #60a3bc;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #c0392b !important;
+}
+
+.auth_paage_body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* background: #6c757d !important; */
+  /* background-image: url('/images/mount.jpg') !important; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.css-1pcexqc-container {
+  height: 35px !important;
+}
+
+.css-bg1rzq-control {
+  min-height: 30px !important;
+  height: inherit;
+}
+
+.css-1szy77t-control {
+  min-height: 30px !important;
+  height: inherit;
+}
+
+
+/* width */
+::-moz-scrollbar { 
+  width: 5px; 
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.textOverFlow {
+  white-space: nowrap; 
+  width: 35%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #211b19;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #211b19;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #ff6300;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #ff6300;
+  background: #211b19;
+}
+
+.react-toast-notifications__container {
+  z-index: 9999 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 86px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 16px;
+  }
+  .notfound a {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+
+button.close.rbt-close {
+  margin-top: -29px;
+  margin-right: 1rem;
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */
